@@ -3,7 +3,7 @@ package co.edu.uniquindio.proyectofinal_parqueaderouq.model;
 import java.io.Serializable;
 
 public class Espacio implements Serializable {
-    private static final long serialVersionUID = 1L;
+
     private String codigo;
     private tipoEspacio tipo;
     private estadoEspacio estado;
