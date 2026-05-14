@@ -1,15 +1,14 @@
 package co.edu.uniquindio.proyectofinal_parqueaderouq.model;
 
-import java.io.Serializable;
 public class Espacio{
 
     private String codigo;
-    private tipoEspacio tipo;
-    private estadoEspacio estado;
+    private TipoEspacio tipo;
+    private EstadoEspacio estado;
     private Vehiculo vehiculoAsignado;
 
 
-    public Espacio(String codigo, tipoEspacio tipo, estadoEspacio estado, Vehiculo vehiculoAsignado) {
+    public Espacio(String codigo, TipoEspacio tipo, EstadoEspacio estado, Vehiculo vehiculoAsignado) {
         this.codigo = codigo;
         this.tipo = tipo;
         this.estado = estado;
@@ -24,19 +23,19 @@ public class Espacio{
         this.codigo = codigo;
     }
 
-    public tipoEspacio getTipo() {
+    public TipoEspacio getTipo() {
         return tipo;
     }
 
-    public void setTipo(tipoEspacio tipo) {
+    public void setTipo(TipoEspacio tipo) {
         this.tipo = tipo;
     }
 
-    public estadoEspacio getEstado() {
+    public EstadoEspacio getEstado() {
         return estado;
     }
 
-    public void setEstado(estadoEspacio estado) {
+    public void setEstado(EstadoEspacio estado) {
         this.estado = estado;
     }
 

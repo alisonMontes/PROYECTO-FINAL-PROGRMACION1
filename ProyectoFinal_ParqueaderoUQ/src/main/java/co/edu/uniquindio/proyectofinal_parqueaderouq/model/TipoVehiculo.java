@@ -1,6 +1,9 @@
 package co.edu.uniquindio.proyectofinal_parqueaderouq.model;
 
-public enum estadoVehiculo {
-    DENTRO,
-    SALIO
+public enum TipoVehiculo
+{
+    CARRO,
+    MOTO,
+    BICICLETA
+
 }

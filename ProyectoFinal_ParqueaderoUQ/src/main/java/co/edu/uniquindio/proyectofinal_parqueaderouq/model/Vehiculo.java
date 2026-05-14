@@ -6,16 +6,16 @@ import java.time.LocalDateTime;
 public class Vehiculo implements Serializable {
     private static final long serialVersionUID = 1L;
     private String placa;
-    private tipoVehiculo tipoVehiculo;
+    private TipoVehiculo tipoVehiculo;
     private String nombreConductor;
     private String identificacionConductor;
     private LocalDateTime horaIngreso;
     private LocalDateTime horaSalida; // Nuevo campo
     private Espacio espacioAsignado;
-    private estadoVehiculo estado;
+    private EstadoVehiculo estado;
     private double valorPagado; // Nuevo campo
 
-    public Vehiculo(String placa, tipoVehiculo tipoVehiculo, String nombreConductor, String identificacionConductor, LocalDateTime horaIngreso, Espacio espacioAsignado, estadoVehiculo estado) {
+    public Vehiculo(String placa, TipoVehiculo tipoVehiculo, String nombreConductor, String identificacionConductor, LocalDateTime horaIngreso, Espacio espacioAsignado, EstadoVehiculo estado) {
         this.placa = placa;
         this.tipoVehiculo = tipoVehiculo;
         this.nombreConductor = nombreConductor;
@@ -32,10 +32,10 @@ public class Vehiculo implements Serializable {
     public void setPlaca(String placa)
     { this.placa = placa; }
 
-    public tipoVehiculo getTipoVehiculo()
+    public TipoVehiculo getTipoVehiculo()
     { return tipoVehiculo; }
 
-    public void setTipoVehiculo(tipoVehiculo tipoVehiculo)
+    public void setTipoVehiculo(TipoVehiculo tipoVehiculo)
     { this.tipoVehiculo = tipoVehiculo; }
 
 
@@ -72,10 +72,10 @@ public class Vehiculo implements Serializable {
     { this.espacioAsignado = espacioAsignado; }
 
 
-    public estadoVehiculo getEstado()
+    public EstadoVehiculo getEstado()
     { return estado; }
 
-    public void setEstado(estadoVehiculo estado)
+    public void setEstado(EstadoVehiculo estado)
     { this.estado = estado; }
 
     public double getValorPagado() {

@@ -1,6 +1,6 @@
 package co.edu.uniquindio.proyectofinal_parqueaderouq.model;
 
-public enum tipoEspacio {
+public enum TipoEspacio {
     CARRO,
     MOTO,
     BICICLETA
