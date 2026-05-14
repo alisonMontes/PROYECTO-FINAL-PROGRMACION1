@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36">
   <diagram name="Página-1" id="hP-PA_K41f0FJxkR2oGt">
-    <mxGraphModel dx="1374" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,27 +199,8 @@
         <mxCell id="zW6_nW2WKyLeJju0EStO-77" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e51400;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;" value="ParqueaderoLlenoException" vertex="1">
           <mxGeometry height="52" width="190" x="1000" y="1760" as="geometry" />
         </mxCell>
-        <mxCell id="zW6_nW2WKyLeJju0EStO-124" edge="1" parent="1" source="zW6_nW2WKyLeJju0EStO-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="zW6_nW2WKyLeJju0EStO-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="1986" />
-              <mxPoint x="720" y="220" />
-            </Array>
-            <mxPoint x="710" y="1230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zW6_nW2WKyLeJju0EStO-81" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e51400;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;" value="PlacaDuplicadaException" vertex="1">
           <mxGeometry height="52" width="180" x="760" y="1960" as="geometry" />
-        </mxCell>
-        <mxCell id="zW6_nW2WKyLeJju0EStO-125" edge="1" parent="1" source="zW6_nW2WKyLeJju0EStO-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="zW6_nW2WKyLeJju0EStO-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1095" y="2032" />
-              <mxPoint x="690" y="2032" />
-              <mxPoint x="690" y="180" />
-              <mxPoint x="1817" y="180" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zW6_nW2WKyLeJju0EStO-85" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e51400;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#B20000;" value="UsuarioNoAutorizadoException" vertex="1">
           <mxGeometry height="52" width="190" x="1000" y="1960" as="geometry" />
@@ -349,19 +330,6 @@
               <mxPoint x="1330" y="1960" />
               <mxPoint x="2990" y="1960" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zW6_nW2WKyLeJju0EStO-122" edge="1" parent="1" source="zW6_nW2WKyLeJju0EStO-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.002;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="zW6_nW2WKyLeJju0EStO-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zW6_nW2WKyLeJju0EStO-123" edge="1" parent="1" source="zW6_nW2WKyLeJju0EStO-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.186;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.421;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="zW6_nW2WKyLeJju0EStO-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="1700" />
-              <mxPoint x="810" y="1700" />
-              <mxPoint x="810" y="277" />
-            </Array>
-            <mxPoint x="1090" y="1740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q5V5oFo20OLmqanPq5ft-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;listEspaciosVehiculosParqueadero" vertex="1">
