@@ -8,17 +8,18 @@ public class Parqueadero {
     private String Direccion;
 
 
-    private List<Vehiculo> listVehiculo;
-    private List<Usuario> listUsuario;
-    private List <Espacio> listEspacio;
+    private List<Vehiculo> listVehiculos;
+    private List<Usuario> listUsuarios;
+    private List <Espacio> listEspacios;
+    private List <Empleado> listEmpleados;
 
 
     public Parqueadero(String nombre, String direccion, List<Vehiculo> listVehiculo, List<Usuario> listUsuario, List<Espacio> listEspacio) {
         this.nombre = nombre;
         this.Direccion = direccion;
-        this.listEspacio = listEspacio;
-        this.listUsuario = listUsuario;
-        this.listVehiculo= listVehiculo;
+        this.listEspacios = listEspacio;
+        this.listUsuarios = listUsuario;
+        this.listVehiculos= listVehiculo;
     }
 
     public String getNombre() {
