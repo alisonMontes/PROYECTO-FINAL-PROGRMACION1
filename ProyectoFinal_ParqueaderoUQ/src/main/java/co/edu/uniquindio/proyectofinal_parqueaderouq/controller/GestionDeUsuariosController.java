@@ -1,4 +1,4 @@
 package co.edu.uniquindio.proyectofinal_parqueaderouq.controller;
 
-public class AdministradorController {
+public class GestionDeUsuariosController {
 }

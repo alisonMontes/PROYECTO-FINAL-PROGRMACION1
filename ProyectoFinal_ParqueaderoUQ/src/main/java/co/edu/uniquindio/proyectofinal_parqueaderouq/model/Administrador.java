@@ -6,7 +6,5 @@ public class Administrador extends Empleado {
         super(nombre, identificacion, cargo, correo, telefono);
     }
 
-    public Administrador() {
-        super();
-    }
-}
+      }
+
